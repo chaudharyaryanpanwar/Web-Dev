@@ -1,0 +1,109 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+
+}
+
+.container .header{
+    background-color:black;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+   
+
+}
+
+
+.logo img{
+    width: 60px ;
+    height: 70px;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    left: 10px;
+    
+    
+}
+
+
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-right: 7%;
+    
+}
+
+nav ul li a:hover{
+    
+    color: #a34cd8;
+}
+nav ul li a{
+    transition: .2s ease all;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.section{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.section .left{
+position: relative;
+left: 7%;
+}
+
+.section .right .mobile_img img{
+    width: 900px;
+    height: 900px;
+    
+}
+.section .right{
+    position: relative;
+    left: 7%;
+}
+
+button{
+    background-color: #ac407c;
+    color: white;
+    padding: 3%;
+    margin-right: 6%;
+    margin-top: 5%;
+    
+    
+    width: 160px;
+    height: 60px;
+    font-size: 1.7rem;
+    transition: .3s all ease;
+    filter: blur(3px);
+    outline: none;
+
+}
+
+
+button:hover{
+
+    filter: blur(0px);
+    outline: none;
+
+
+}
